@@ -26,8 +26,8 @@ $maChat  = new Animal("Chat");
 
 class Rectangle 
 {
-              public   $longueur; 
-              public   $largeur;
+              public  int $longueur; 
+              public  int $largeur;
 
               public function __construct($longueur,$largeur)
               {
