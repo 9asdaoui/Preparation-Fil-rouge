@@ -1,0 +1,75 @@
+<script>
+              function bonjour(){
+                            return 'bonjour'
+              }
+
+              function addition(a,b){
+                            return a+b;
+              }
+
+
+
+</script>
+
+<script>
+              function pairOrNot(nombre){
+                            if(nombre % 2 === 0){
+                                          return true;
+                            }else{
+                                          return false;
+                            }
+              }
+
+              function factorielle(number){
+                            
+                            let result = 1;
+
+                            for(i = number; i >0;i--){
+                                          result = i * result
+                            }
+                            return result
+              }
+
+              function findMax(a,b){
+                            if(a<b){
+                                          return b
+                            }else if(a>b){
+                                          return a
+                            }else{
+                                          return 'the numbers ar equale'
+                            }
+              }
+
+              function bienvenue(name){
+                            return 'welcom '+ name
+              }
+
+
+</script>
+
+<script>
+
+              function sommeTableau(table){
+                            let sum = 0;
+                            for (let i = 0; i < table.length; i++) {
+                              sum += table[i];
+                            }
+                            return sum                            
+              }
+
+              let table = [1,2,3,4,5,6,3,2]
+
+              
+              function inverserChaine(word){
+                            let wordArray = word.split('');
+                            let revirsed = [];
+                            for(let i=wordArray.length; i>=0; i--){
+                                          revirsed.push(wordArray[i]);
+                            }
+                            return revirsed.join('');
+              }
+              
+              console.log(sommeTableau(inverserChaine('ussama')));
+
+
+</script>
